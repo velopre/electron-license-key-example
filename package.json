@@ -1,0 +1,16 @@
+{
+  "name": "electron-license-key-example",
+  "version": "1.0.0",
+  "description": "Minimal Electron app with Ed25519 offline license verification via Keyfern",
+  "main": "main.js",
+  "type": "module",
+  "scripts": {
+    "start": "electron ."
+  },
+  "dependencies": {
+    "keyfern": "https://keyfern.com/dl/keyfern-1.0.0.tgz"
+  },
+  "devDependencies": {
+    "electron": "^33.0.0"
+  }
+}
