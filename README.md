@@ -32,7 +32,7 @@ Keyfern solves this:
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/keyfern/electron-license-key-example.git
+git clone https://github.com/velopre/electron-license-key-example.git
 cd electron-license-key-example
 ```
 
@@ -40,7 +40,10 @@ cd electron-license-key-example
 ```bash
 npm install
 ```
-The Keyfern SDK is not on the public npm registry; `package.json` installs it from `https://keyfern.com/dl/keyfern-1.0.0.tgz`.
+This installs Electron and the official [`keyfern`](https://www.npmjs.com/package/keyfern) package from npm. To add Keyfern to an existing Node.js or Electron project, run:
+```bash
+npm install keyfern
+```
 
 ### 3. Configure your keys
 Copy the sample environment file:
