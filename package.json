@@ -8,7 +8,7 @@
     "start": "electron ."
   },
   "dependencies": {
-    "keyfern": "https://keyfern.com/dl/keyfern-1.0.0.tgz"
+    "keyfern": "^1.1.0"
   },
   "devDependencies": {
     "electron": "^33.0.0"
